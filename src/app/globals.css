@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+
+
+.urbanist-font {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+}
 
 @custom-variant dark (&:is(.dark *));
 
