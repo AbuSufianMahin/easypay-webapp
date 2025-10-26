@@ -78,7 +78,7 @@ function HowItWorks() {
                                     {
                                         index !== workingSteps.length - 1 && <div className="hidden sm:flex w-px xl:mx-12 h-10/12 bg-linear-to-b from-[#F5F5F5] via-[#CBCBCB] to-[#F5F5F5]"></div>
                                     }
-                                    <div className="absolute -top-6 lg:-top-3 left-0 font-bold text-7xl opacity-5">
+                                    <div className={`absolute -top-6 lg:-top-3 left-0 font-bold text-7xl opacity-5 ${urbanist.className}`}>
                                         0{index + 1}
                                     </div>
                                 </div>
