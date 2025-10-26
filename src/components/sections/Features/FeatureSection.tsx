@@ -63,9 +63,9 @@ function FeatureSection() {
 
     return (
         <section className='max-w-7xl mx-auto my-16 md:my-20 lg:my-28'>
-            <div className="m-4 md:m-6 2xl:mx-0">
-                <h1 className="text-lg font-semibold text-[#932EFA] text-center">Features</h1>
-                <h2 className={`${urbanist.className} text-2xl md:text-4xl font-bold text-center`}>Why choose Easy Pay <br />for effortless payments?</h2>
+            <div className="m-4 md:m-6 2xl:mx-0 text-center">
+                <h1 className="text-lg font-semibold text-[#932EFA]">Features</h1>
+                <h2 className={`${urbanist.className} text-2xl md:text-4xl font-bold`}>Why choose Easy Pay <br />for effortless payments?</h2>
 
                 <div className="mt-6 md:mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {
