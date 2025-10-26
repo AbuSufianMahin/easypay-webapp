@@ -1,5 +1,6 @@
 import { Urbanist } from "next/font/google"
 import { ReactElement } from "react";
+import BrandSection from "../BrandSection/BrandSection";
 
 const urbanist = Urbanist({
     subsets: ["latin"],
@@ -61,7 +62,7 @@ function FeatureSection() {
     ]
 
     return (
-        <section className='max-w-7xl mx-auto mt-16 md:mt-20 lg:mt-28'>
+        <section className='max-w-7xl mx-auto my-16 md:my-20 lg:my-28'>
             <div className="m-4 md:m-6 2xl:mx-0">
                 <h1 className="text-lg font-semibold text-[#932EFA] text-center">Features</h1>
                 <h2 className={`${urbanist.className} text-2xl md:text-4xl font-bold text-center`}>Why choose Easy Pay <br />for effortless payments?</h2>
@@ -81,6 +82,8 @@ function FeatureSection() {
                         )
                     }
                 </div>
+
+                <BrandSection />
             </div>
         </section>
     )

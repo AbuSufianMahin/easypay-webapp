@@ -62,7 +62,7 @@ function HowItWorks() {
                     </div>
 
                     {/* work process cards */}
-                    <div className="flex flex-col gap-6 lg:flex-row bg-white rounded-2xl py-12 px-4 md:px-8 mt-12">
+                    <div className="flex flex-col gap-6 md:gap-10 lg:flex-row bg-white rounded-2xl pt-12 pb-6 sm:py-12 px-4 md:px-8 mt-12">
                         {
                             workingSteps.map((steps, index) =>
                                 <div key={index} className="relative flex">
@@ -70,9 +70,9 @@ function HowItWorks() {
                                         <div>
                                             {steps.icon}
                                         </div>
-                                        <div className="mt-4 md:mt-6 lg:mt-8">
+                                        <div className="mt-2 lg:mt-8 space-y-1 sm:space-y-2">
                                             <h3 className={`text-xl font-bold ${urbanist.className}`}>{steps.title}</h3>
-                                            <p className="text-sm">{steps.description}</p>
+                                            <p className="text-sm text-[#4D525F]">{steps.description}</p>
                                         </div>
                                     </div>
                                     {

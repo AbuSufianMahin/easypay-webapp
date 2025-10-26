@@ -8,7 +8,6 @@ export default function Home() {
     <div>
       <HeroSection />
       <FeatureSection />
-      <BrandSection />
       <HowItWorks />
     </div>
   );
