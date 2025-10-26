@@ -5,7 +5,7 @@ import RightSide from "./RightSide";
 
 function HeroSection() {
   return (
-    <section className='2xl:max-w-[1440px] mx-auto'>
+    <section className='max-w-[1440px] mx-auto'>
 
       <div className='relative overflow-hidden m-4 md:m-6 2xl:mx-0 rounded-2xl shadow-md'>
         <div className='flex flex-col md:flex-row md:gap-5 items-center justify-between px-3 pt-8 md:px-8 xl:px-24'>

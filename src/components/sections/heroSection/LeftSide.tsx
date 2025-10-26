@@ -6,7 +6,6 @@ import appStoreLogo from "../../../assets/icons/apple-icon.svg"
 import { Urbanist } from 'next/font/google'
 
 const urbanist = Urbanist({
-  variable: "--font-urbanist",
   subsets: ["latin"],
 })
 
@@ -14,7 +13,7 @@ function LeftSide() {
     return (
         <div className='max-w-2xl pb-4'>
             <p className='text-[#787878] font-semibold text-lg ml-0.5 -mb-2'>Easy Payment</p>
-            <h1 className={`text-3xl sm:text-4xl xl:text-6xl font-bold text-[#01081B] ${urbanist.variable}`}>
+            <h1 className={`text-3xl sm:text-4xl xl:text-6xl font-bold text-[#01081B] ${urbanist.className}`}>
                 Pay fast and smarter from anywhere
             </h1>
             <p className='mt-2 md:mt-5 text-[#4D525F] text-sm lg:text-lg'>
