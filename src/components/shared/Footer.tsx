@@ -1,6 +1,7 @@
 import { Urbanist } from "next/font/google";
-import Image from "next/image";
 import Link from "next/link";
+import BrandLogo from "./BrandLogo";
+
 type ShortLink = {
     name: string;
     path: string;
@@ -57,11 +58,7 @@ function Footer() {
                 <div className="mx-4 md:mx-6 2xl:mx-0 flex flex-col md:flex-row gap-10 lg:gap-30 md:justify-between pb-4 border-b border-[#E7E7E8]">
                     {/* brand summary */}
                     <div className="max-w-96 md:max-w-80 space-y-6">
-                        <Link href="/" className="flex gap-2 items-center">
-                            <Image src={"/easypay-logo.png"} alt="Easy Pay brand Logo" width={52} height={52} className="object-contain" priority />
-                            <h1 className={`text-3xl font-bold ${urbanist.className}`}>Easy Pay</h1>
-                        </Link>
-
+                        <BrandLogo/>
                         <p className="text-[#4D525F]">Easy Pay offers secure, seamless, and fee-free payments for effortless global transactions.</p>
                     </div>
 
