@@ -2,6 +2,7 @@ import BrandSection from "@/components/sections/BrandSection/BrandSection";
 import FeatureSection from "@/components/sections/Features/FeatureSection";
 import HeroSection from "@/components/sections/heroSection/HeroSection";
 import HowItWorks from "@/components/sections/HowItWorks/HowItWorks";
+import PricingSection from "@/components/sections/Pricing/PricingSection";
 import SecuritySection from "@/components/sections/Security/SecuritySection";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <FeatureSection />
       <HowItWorks />
       <SecuritySection />
+      <PricingSection />
     </div>
   );
 }
