@@ -11,20 +11,24 @@ type navigationLink = {
 function Navbar() {
     const navLinks: navigationLink[] = [
         {
+            name: "Home",
+            url: "/"
+        },
+        {
             name: "Features",
-            url: "#features"
+            url: "/features"
         },
         {
             name: "Pricing",
-            url: "#pricing"
+            url: "/pricing"
         },
         {
-            name: "FAQ",
-            url: "#faq"
+            name: "Secutiry",
+            url: "/security"
         },
         {
-            name: "Testimonials",
-            url: "#testimonials"
+            name: "Benefits",
+            url: "/benefits"
         },
     ]
 
@@ -38,7 +42,7 @@ function Navbar() {
                     </div>
                     <div className='hidden md:flex'>
                         {
-                            <ul className='flex gap-4 lg:text-lg md:gap-8 justify-between'>
+                            <ul className='flex gap-4 lg:text-lg lg:gap-8 justify-between'>
                                 {
                                     navLinks.map((navItem, index) =>
                                         <li key={index} className='hover:underline'>
@@ -54,7 +58,7 @@ function Navbar() {
                     </div>
 
 
-                    <NavigationModal navLinks={navLinks}/>
+                    <NavigationModal navLinks={navLinks} />
                 </div>
             </div>
         </nav>

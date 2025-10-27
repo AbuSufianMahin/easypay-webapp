@@ -51,7 +51,7 @@ function FAQSection() {
                     <Accordion type="single" collapsible>
                         {
                             queries.map((query, index) =>
-                                <AccordionItem value={`item-${index + 1}`}>
+                                <AccordionItem value={`item-${index + 1}`} key={index}>
                                     <AccordionTrigger className='md:text-lg'>{query.question}</AccordionTrigger>
                                     <AccordionContent>
                                         {query.answer}
