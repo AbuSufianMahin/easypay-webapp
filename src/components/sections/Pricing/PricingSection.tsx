@@ -59,7 +59,7 @@ function PricingSection() {
     ]
 
     return (
-        <section className="bg-radial-[at_50%_65%] lg:bg-radial-[at_50%_75%] from-[#CD9BFF70] to-white to-70% lg:to-30%">
+        <section id="#pricing" className="bg-radial-[at_50%_65%] lg:bg-radial-[at_50%_75%] from-[#CD9BFF70] to-white to-70% lg:to-30%">
             <div className="max-w-7xl mx-auto pb-6 lg:pb-20">
                 <div className="text-center">
                     <h1 className="text-lg font-semibold text-[#932EFA]">Pricing</h1>

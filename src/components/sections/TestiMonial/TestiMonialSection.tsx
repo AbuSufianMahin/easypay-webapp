@@ -68,7 +68,7 @@ function TestiMonialSection() {
 
 
     return (
-        <section className='bg-[#F6F6F6]'>
+        <section id="#testimonials" className='bg-[#F6F6F6]'>
             <div className='max-w-7xl mx-auto'>
                 <div className='mx-4 md:mx-6 2xl:mx-0 py-10 md:py-30 flex flex-col sm:flex-row gap-4'>
                     {/* section summary - left side */}

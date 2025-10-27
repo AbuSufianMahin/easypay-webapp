@@ -12,19 +12,19 @@ function Navbar() {
     const navLinks: navigationLink[] = [
         {
             name: "Features",
-            url: "/features"
+            url: "#features"
         },
         {
             name: "Pricing",
-            url: "/pricing"
+            url: "#pricing"
         },
         {
-            name: "Security",
-            url: "/security"
+            name: "FAQ",
+            url: "#faq"
         },
         {
-            name: "Benefits",
-            url: "/benefits"
+            name: "Testimonials",
+            url: "#testimonials"
         },
     ]
 
