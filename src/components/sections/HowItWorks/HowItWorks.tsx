@@ -58,7 +58,7 @@ function HowItWorks() {
                             <h1 className='text-lg font-semibold text-[#932EFA]'>How It Works</h1>
                             <h2 className={`${urbanist.className} text-2xl md:text-4xl font-bold`}>Make payments, transfers, and <br /> more in 3 simple steps</h2>
                         </div>
-                        <Button className="rounded-full px-4 sm:px-6 h-10 sm:h-14 bg-[#2E68FD] hover:opacity-95 hover:shadow-lg transition duration-300">Get Started Now</Button>
+                        <Button>Get Started Now</Button>
                     </div>
 
                     {/* work process cards */}
